@@ -32,7 +32,7 @@ harness-install layer — no evals-specific tooling.
 docker pull ghcr.io/prime-radiant-inc/everyharness-container:latest
 ```
 
-First published build: `latest@sha256:de1026a0580ce2956ab4b181407110f2cbc37660c7bf0f3d5a0a1d3cc6051d7f` (2026-08-11).
+First published build (commit 8034359, 2026-08-11): `sha256:de1026a0580ce2956ab4b181407110f2cbc37660c7bf0f3d5a0a1d3cc6051d7f` — `latest` moves with every main push; pin by sha tag or digest for reproducibility.
 
 Images are also tagged with the git commit SHA they were built from:
 `ghcr.io/prime-radiant-inc/everyharness-container:<sha>`.
